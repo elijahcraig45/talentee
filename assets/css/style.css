@@ -16,8 +16,9 @@
 --sage: #a5a58dff;
 --reseda-green: #6b705cff;
 --beige: #EFEBCE;
---black: var(--black);
---grey: var(--grey);
+--black: #222222;
+--grey: #6f6f6f;
+--bg-white: #fff;
 }
 
 body {
@@ -513,11 +514,9 @@ h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  background-color: var(--bg-white);
 }
 
-.section-bg {
-  background-color: #e7f8f6;
-}
 
 .section-title {
   text-align: center;
