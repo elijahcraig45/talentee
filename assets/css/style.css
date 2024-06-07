@@ -129,7 +129,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: var(--beige);
+  background: var(--sage);
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
   padding: 15px 0;
@@ -210,7 +210,7 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: var(--sage);
+  color: var(--reseda-green);
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -247,7 +247,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: var(--reseda-green);
+  color: var(--black);
 }
 
 .navbar .dropdown ul {
@@ -453,11 +453,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: var(--black);
+  color: var(--sage);
 }
 
 #hero h2 {
-  color: var(--grey);
+  color: var(--sage);
   margin: 10px 0 0 0;
   font-size: 22px;
 }
